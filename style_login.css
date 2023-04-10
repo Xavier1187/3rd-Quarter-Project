@@ -1,0 +1,72 @@
+body {
+	font-family: 'Monaco', monospace;
+	background-image: url("actualbg.jpg");
+	background-size: 1400px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: -220px;
+}
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 90vh;
+}
+.container {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	padding: 0 15px 0 15px;
+}
+span {
+	color: #fff;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0 10px 0;
+}
+.input {
+	height: 45px;
+	width: 90%;
+	border: none;
+	outline: none;
+	border-radius: 30px;
+	background: rgba(255,255,255,0.1);
+	margin: 10px;
+	transition: .4s;
+}
+.submit {
+	border: none;
+	border-radius: 30px;
+	font-size: 15px;
+	height: 45px;
+	outline: none;
+	width: 100%;
+	background: rgba(255, 255, 2555, 0.7);
+	cursor: pointer;
+	transition: .4s;
+	margin-top: 10px;
+}
+ .about {
+ 	color: white;
+ 	font-size: 12px;
+ 	float: left;
+ }
+
+ .under {
+ 	margin-top: ;
+ }
+ .sprite {
+ 	display: flex;
+ 	flex-direction: row;
+ }
+
+ .input:focus {
+ 	background-color: whitesmoke;
+ }
+ .submit:hover {
+ 	background-color: whitesmoke;
+ }
+ #errortext {
+ 	font-size: medium;
+ }
